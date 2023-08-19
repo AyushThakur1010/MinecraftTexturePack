@@ -1,0 +1,33 @@
+/* Media query for screens up to 767 pixels (mobile devices) */
+@media screen and (max-width: 767px) {
+    /* Adjust styles for mobile view */
+    body {
+        font-size: 16px; /* Example font size adjustment */
+    }
+    
+    h1 {
+        font-size: 24px; /* Example font size adjustment */
+    }
+    
+    img {
+        max-width: 100%; /* Make images responsive */
+        height: auto;
+    }
+}
+
+/* Media query for screens 768 pixels and above (desktop screens) */
+@media screen and (min-width: 768px) {
+    /* Adjust styles for desktop view */
+    body {
+        font-size: 18px; /* Example font size adjustment */
+    }
+    
+    h1 {
+        font-size: 36px; /* Example font size adjustment */
+    }
+    
+    img {
+        max-width: 100%; /* Ensure images fit within container */
+        height: auto;
+    }
+}
